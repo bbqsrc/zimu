@@ -1,0 +1,12 @@
+[package]
+name = "zimu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ass-parser = { path = "../ass-parser" }
+chrono = "0.4.22"
+clap = { version = "3.2.20", features = ["derive"] }
+indexmap = "1.9.1"
+srt-parser = { path = "../srt-parser" }
+zimu-ast = { path = "../zimu-ast" }
